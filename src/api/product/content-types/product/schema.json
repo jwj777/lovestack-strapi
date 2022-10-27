@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "Product"
+    "displayName": "Product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,9 @@
       "type": "richtext"
     },
     "productUrl": {
+      "type": "string"
+    },
+    "slug": {
       "type": "string"
     }
   }

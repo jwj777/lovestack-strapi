@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product-category",
     "pluralName": "product-categories",
-    "displayName": "Product Category"
+    "displayName": "Product Category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,7 +22,10 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::company.company",
-      "inversedBy": "product_categories"
+      "mappedBy": "product_categories"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

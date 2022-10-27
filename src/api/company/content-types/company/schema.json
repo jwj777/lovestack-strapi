@@ -26,6 +26,9 @@
       "relation": "manyToMany",
       "target": "api::product-category.product-category",
       "inversedBy": "companies"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
