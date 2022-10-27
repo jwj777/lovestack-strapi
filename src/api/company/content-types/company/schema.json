@@ -28,7 +28,8 @@
       "inversedBy": "companies"
     },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     }
   }
 }
