@@ -29,7 +29,15 @@
     },
     "slug": {
       "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "twitterHandle": {
+      "type": "string",
       "unique": true
+    },
+    "linkedinHandle": {
+      "type": "string"
     }
   }
 }

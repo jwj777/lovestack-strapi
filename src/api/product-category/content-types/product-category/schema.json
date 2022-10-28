@@ -25,7 +25,9 @@
       "mappedBy": "product_categories"
     },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": true
     }
   }
 }
