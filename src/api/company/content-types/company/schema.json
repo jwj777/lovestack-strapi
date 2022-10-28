@@ -38,6 +38,39 @@
     },
     "linkedinHandle": {
       "type": "string"
+    },
+    "Founded": {
+      "type": "string"
+    },
+    "parentCompany": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::company.company",
+      "mappedBy": "subsidiaries"
+    },
+    "subsidiaries": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::company.company",
+      "inversedBy": "parentCompany"
+    },
+    "features": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::feature.feature",
+      "inversedBy": "companies"
+    },
+    "entryPriceMonthly": {
+      "type": "decimal"
+    },
+    "apiPriceMonthly": {
+      "type": "decimal"
+    },
+    "yearFounded": {
+      "type": "integer"
+    },
+    "Headquarters": {
+      "type": "string"
     }
   }
 }

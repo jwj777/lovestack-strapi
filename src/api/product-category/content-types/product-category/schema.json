@@ -28,6 +28,12 @@
       "type": "string",
       "unique": true,
       "required": true
+    },
+    "features": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::feature.feature",
+      "inversedBy": "product_categories"
     }
   }
 }
