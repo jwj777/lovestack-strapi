@@ -39,9 +39,6 @@
     "linkedinHandle": {
       "type": "string"
     },
-    "Founded": {
-      "type": "string"
-    },
     "parentCompany": {
       "type": "relation",
       "relation": "oneToMany",
@@ -79,6 +76,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "freeTrial": {
+      "type": "boolean"
+    },
+    "freePricingTier": {
+      "type": "boolean"
     }
   }
 }
