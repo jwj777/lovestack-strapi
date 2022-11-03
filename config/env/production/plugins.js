@@ -1,11 +1,14 @@
+import accessKeyId from '/resources.js';
+import secretAccessKey from '/resources.js';
+
 module.exports = ({ env }) => ({
   // ...
   upload: {
     config: {
-      provider: 'provider-upload-aws-s3',
+      provider: 'aws-s3',
       providerOptions: {
-        accessKeyId: env('DO00DHVJDTD2XXGL984Z'),
-        secretAccessKey: env('LYAJdCqm798OA0s7F75uNXTx+syLSbjTFr+x7129ows'),
+        accessKeyId: env(resources.accessKeyId),
+        secretAccessKey: env(resources.secretAccessKey),
         region: env('nyc3'),
         endpoint: env('nyc3.digitaloceanspaces.com'),
         params: {
