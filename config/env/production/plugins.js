@@ -1,5 +1,4 @@
-import accessKeyId from '/resources.js';
-import secretAccessKey from '/resources.js';
+import { secretAccessKey, accessKeyId } from '/resources.js';
 
 module.exports = ({ env }) => ({
   // ...
