@@ -5,7 +5,7 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "strapi start && NPM_CONFIG_PRODUCTION=false",
     "build": "strapi build",
     "strapi": "strapi"
   },
