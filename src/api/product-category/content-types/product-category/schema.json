@@ -33,7 +33,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::feature.feature",
-      "inversedBy": "product_categories"
+      "mappedBy": "product_categories"
     }
   }
 }

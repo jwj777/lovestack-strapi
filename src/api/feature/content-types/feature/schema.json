@@ -29,6 +29,9 @@
       "relation": "manyToMany",
       "target": "api::product-category.product-category",
       "inversedBy": "features"
+    },
+    "testTest": {
+      "type": "string"
     }
   }
 }
