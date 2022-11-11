@@ -82,6 +82,9 @@
     },
     "freePricingTier": {
       "type": "boolean"
+    },
+    "integrationsPage": {
+      "type": "string"
     }
   }
 }

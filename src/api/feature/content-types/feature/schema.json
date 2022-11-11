@@ -15,9 +15,6 @@
     "featureName": {
       "type": "string"
     },
-    "featureDescription": {
-      "type": "string"
-    },
     "companies": {
       "type": "relation",
       "relation": "manyToMany",
@@ -30,8 +27,8 @@
       "target": "api::product-category.product-category",
       "inversedBy": "features"
     },
-    "testTest": {
-      "type": "string"
+    "featureDescription": {
+      "type": "richtext"
     }
   }
 }
