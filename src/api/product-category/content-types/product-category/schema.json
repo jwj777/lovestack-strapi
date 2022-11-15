@@ -34,6 +34,18 @@
       "relation": "manyToMany",
       "target": "api::feature.feature",
       "mappedBy": "product_categories"
+    },
+    "child_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product-category.product-category",
+      "mappedBy": "parent_category"
+    },
+    "parent_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product-category.product-category",
+      "inversedBy": "child_categories"
     }
   }
 }
