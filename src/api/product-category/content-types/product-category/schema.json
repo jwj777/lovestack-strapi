@@ -46,6 +46,10 @@
       "relation": "manyToOne",
       "target": "api::product-category.product-category",
       "inversedBy": "child_categories"
+    },
+    "Weight": {
+      "type": "integer",
+      "max": 50
     }
   }
 }
