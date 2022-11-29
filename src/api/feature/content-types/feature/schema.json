@@ -34,6 +34,10 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "Weight": {
+      "type": "integer",
+      "max": 50
     }
   }
 }
