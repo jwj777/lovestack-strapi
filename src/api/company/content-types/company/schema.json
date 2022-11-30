@@ -85,6 +85,13 @@
     },
     "integrationsPage": {
       "type": "string"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
