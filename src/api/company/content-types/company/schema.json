@@ -92,6 +92,9 @@
     "featured": {
       "type": "boolean",
       "default": false
+    },
+    "authorityRank": {
+      "type": "decimal"
     }
   }
 }
