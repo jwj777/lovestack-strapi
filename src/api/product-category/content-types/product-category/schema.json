@@ -50,6 +50,10 @@
     "Weight": {
       "type": "integer",
       "max": 50
+    },
+    "Subheading": {
+      "type": "richtext",
+      "maxLength": 250
     }
   }
 }

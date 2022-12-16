@@ -60,9 +60,6 @@
     "entryPriceMonthly": {
       "type": "decimal"
     },
-    "apiPriceMonthly": {
-      "type": "decimal"
-    },
     "yearFounded": {
       "type": "integer"
     },
@@ -95,6 +92,9 @@
     },
     "authorityRank": {
       "type": "decimal"
+    },
+    "pricingPage": {
+      "type": "string"
     }
   }
 }
