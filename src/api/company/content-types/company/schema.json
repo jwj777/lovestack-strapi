@@ -95,6 +95,13 @@
     },
     "pricingPage": {
       "type": "string"
+    },
+    "companyDescriptionCk": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
