@@ -1,8 +1,6 @@
 
 module.exports = ({ env }) => ({
 
-  ckeditor: true,
-
   // AWS Image Storage on DO
   upload: {
     config: {
