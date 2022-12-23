@@ -1,5 +1,9 @@
+
 module.exports = ({ env }) => ({
-  // ...
+
+  ckeditor: true,
+
+  // AWS Image Storage on DO
   upload: {
     config: {
       provider: 'aws-s3',
@@ -13,30 +17,17 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  // ...
+
+
+  // EZ FORMS
+
+  ezforms: {
+    config: {
+      captchaProvider: {
+        name: 'none'
+      },
+      notificationProviders: []
+    }
+  }
+
 });
-
-
-// //  S3 Version
-//     // ~/strapi-aws-s3/backend/config/plugins.js
-    
-//     module.exports = ({ env }) => ({
-//       upload: {
-//         config: {
-//           provider: 'aws-s3',
-//           providerOptions: {
-//             accessKeyId: env('AWS_ACCESS_KEY_ID'),
-//             secretAccessKey: env('AWS_ACCESS_SECRET'),
-//             region: env('AWS_REGION'),
-//             params: {
-//               Bucket: env('AWS_BUCKET'),
-//             },
-//           },
-//           actionOptions: {
-//             upload: {},
-//             uploadStream: {},
-//             delete: {},
-//           },
-//         },
-//       },
-//     });
