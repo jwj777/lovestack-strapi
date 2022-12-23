@@ -25,6 +25,13 @@
       "type": "string",
       "unique": true,
       "required": true
+    },
+    "bodyCk": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
