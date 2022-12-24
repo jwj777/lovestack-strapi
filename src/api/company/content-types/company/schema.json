@@ -102,6 +102,11 @@
         "preset": "standard"
       },
       "customField": "plugin::ckeditor.CKEditor"
+    },
+    "companyPlan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "company.plan"
     }
   }
 }

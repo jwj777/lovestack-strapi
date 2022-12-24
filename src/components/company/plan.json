@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_company_plans",
+  "info": {
+    "displayName": "Plan",
+    "icon": "money-check-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "planName": {
+      "type": "string"
+    },
+    "planDescription": {
+      "type": "string"
+    },
+    "planPrice": {
+      "type": "string"
+    },
+    "planFreeTrial": {
+      "type": "boolean"
+    }
+  }
+}
