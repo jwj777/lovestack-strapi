@@ -18,6 +18,19 @@
     },
     "planFreeTrial": {
       "type": "boolean"
+    },
+    "paymentPeriod": {
+      "type": "enumeration",
+      "enum": [
+        "Monthly",
+        "Annual"
+      ]
+    },
+    "planSalesCta": {
+      "type": "string"
+    },
+    "planSalesUrl": {
+      "type": "string"
     }
   }
 }
