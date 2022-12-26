@@ -22,8 +22,8 @@
     "paymentPeriod": {
       "type": "enumeration",
       "enum": [
-        "Monthly",
-        "Annual"
+        "Month",
+        "Year"
       ]
     },
     "planSalesCta": {
