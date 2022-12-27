@@ -41,15 +41,15 @@
     },
     "parentCompany": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToOne",
       "target": "api::company.company",
-      "mappedBy": "subsidiaries"
+      "inversedBy": "subsidiaries"
     },
     "subsidiaries": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "oneToMany",
       "target": "api::company.company",
-      "inversedBy": "parentCompany"
+      "mappedBy": "parentCompany"
     },
     "features": {
       "type": "relation",
@@ -107,6 +107,9 @@
       "type": "component",
       "repeatable": true,
       "component": "company.plan"
+    },
+    "rankAdj": {
+      "type": "decimal"
     }
   }
 }
