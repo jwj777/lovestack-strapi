@@ -34,7 +34,7 @@
     },
     "twitterHandle": {
       "type": "string",
-      "unique": true
+      "unique": false
     },
     "linkedinHandle": {
       "type": "string"
