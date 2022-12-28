@@ -110,6 +110,12 @@
     },
     "rankAdj": {
       "type": "decimal"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
     }
   }
 }

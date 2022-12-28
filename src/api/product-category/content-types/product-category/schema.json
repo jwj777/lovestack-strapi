@@ -54,6 +54,12 @@
     "Subheading": {
       "type": "richtext",
       "maxLength": 250
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
     }
   }
 }
