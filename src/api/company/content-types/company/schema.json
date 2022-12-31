@@ -116,6 +116,14 @@
     },
     "metaDescription": {
       "type": "text"
+    },
+    "openSourceType": {
+      "type": "enumeration",
+      "enum": [
+        "GNU General Public License",
+        "Apache Software Foundation",
+        "MIT"
+      ]
     }
   }
 }
