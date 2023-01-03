@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stacks",
+  "info": {
+    "singularName": "stack",
+    "pluralName": "stacks",
+    "displayName": "stack"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stackName": {
+      "type": "string"
+    },
+    "stackDescription": {
+      "type": "text"
+    },
+    "stackItem": {
+      "displayName": "Stack Item",
+      "type": "component",
+      "repeatable": false,
+      "component": "software.stack-item"
+    }
+  }
+}

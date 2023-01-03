@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_software_stack_items",
+  "info": {
+    "displayName": "Stack Item"
+  },
+  "options": {},
+  "attributes": {
+    "companyRef": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::company.company"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Promotion",
+        "Content",
+        "Segmentation",
+        "Data and Analytics"
+      ]
+    }
+  }
+}
