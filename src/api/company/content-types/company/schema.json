@@ -125,6 +125,13 @@
         "MIT",
         "AGPL"
       ]
+    },
+    "companyIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
