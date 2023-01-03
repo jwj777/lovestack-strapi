@@ -120,9 +120,10 @@
     "openSourceType": {
       "type": "enumeration",
       "enum": [
-        "GNU General Public License",
+        "GNU General Public",
         "Apache Software Foundation",
-        "MIT"
+        "MIT",
+        "AGPL"
       ]
     }
   }

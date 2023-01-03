@@ -4,7 +4,8 @@
   "info": {
     "singularName": "stack",
     "pluralName": "stacks",
-    "displayName": "stack"
+    "displayName": "stack",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,7 +21,7 @@
     "stackItem": {
       "displayName": "Stack Item",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "software.stack-item"
     }
   }
