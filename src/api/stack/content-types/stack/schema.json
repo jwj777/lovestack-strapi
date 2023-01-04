@@ -15,9 +15,6 @@
     "stackName": {
       "type": "string"
     },
-    "stackDescription": {
-      "type": "text"
-    },
     "stackItem": {
       "displayName": "Stack Item",
       "type": "component",
@@ -28,14 +25,29 @@
       "type": "string"
     },
     "featureImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "stackAnalysis": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "stackDescription": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
