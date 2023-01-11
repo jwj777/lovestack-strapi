@@ -1,7 +1,8 @@
 {
   "collectionName": "components_software_stack_items",
   "info": {
-    "displayName": "Stack Item"
+    "displayName": "Stack Item",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,6 +19,11 @@
         "Segmentation",
         "Data and Analytics"
       ]
+    },
+    "product_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-category.product-category"
     }
   }
 }
