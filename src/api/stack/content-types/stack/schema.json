@@ -45,15 +45,30 @@
     "stackDescription": {
       "type": "customField",
       "options": {
-        "preset": "rich"
+        "preset": "rich",
+        "maxLengthCharacters": 200
       },
       "customField": "plugin::ckeditor.CKEditor"
     },
-    "pageTitle": {
+    "authorName": {
       "type": "string"
     },
-    "metaDescription": {
-      "type": "text"
+    "authorTitle": {
+      "type": "string"
+    },
+    "authorCompany": {
+      "type": "string"
+    },
+    "authorWebsite": {
+      "type": "string"
+    },
+    "stackSummary": {
+      "type": "customField",
+      "options": {
+        "preset": "rich",
+        "maxLengthCharacters": 180
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
