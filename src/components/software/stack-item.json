@@ -24,6 +24,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::product-category.product-category"
+    },
+    "stackCompanyExplanation": {
+      "type": "text"
     }
   }
 }
