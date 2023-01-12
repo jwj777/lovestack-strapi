@@ -38,6 +38,12 @@
     "Weight": {
       "type": "integer",
       "max": 50
+    },
+    "feature_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::feature-category.feature-category",
+      "inversedBy": "features"
     }
   }
 }
