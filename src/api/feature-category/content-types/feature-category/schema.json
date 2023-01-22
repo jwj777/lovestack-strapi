@@ -16,12 +16,6 @@
     },
     "slug": {
       "type": "string"
-    },
-    "features": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::feature.feature",
-      "mappedBy": "feature_category"
     }
   }
 }

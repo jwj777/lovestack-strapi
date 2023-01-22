@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>database.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="all" href="../doc-style.css" />
+  <script src="../doc-filelist.js"></script>
+  <script>
+    var relativeDir = "../";
+    var thisFile = "config\\database.js";
+    var defaultSidebar = true;
+  </script>
+  <script src="../doc-script.js"></script>
+
+</head>
+<body>
+  <div id="sidebar_wrapper">
+    <div id="sidebar_switch">
+      <span class="tree">Files</span>
+      <span class="headings">Headings</span>
+    </div>
+    <div id="tree"></div>
+    <div id="headings">
+
+    </div>
+  </div>
+  <div id="sidebar-toggle"></div>
+  <div id="container">
+    <div class="background highlight"></div>
+<table cellpadding="0" cellspacing="0">
+  <tbody>
+    
+      <tr>
+        <td class="docs">
+          <h1>database.js</h1>
+        </td>
+        <td class="code highlight"></td>
+      </tr>
+    
+    
+      <tr>
+        <td class="docs">
+          <div class="pilwrap">
+  <a class="pilcrow" href="#section-1" id="section-1"></a>
+</div>
+
+        </td>
+        <td class="code highlight">
+          <pre class="javascript"><span class="hljs-built_in">module</span>.exports = <span class="hljs-function">(<span class="hljs-params">{ env }</span>) =&gt;</span> ({
+  <span class="hljs-attr">connection</span>: {
+    <span class="hljs-attr">client</span>: <span class="hljs-string">'postgres'</span>,
+    <span class="hljs-attr">connection</span>: {
+      <span class="hljs-attr">host</span>: env(<span class="hljs-string">'DATABASE_HOST'</span>, <span class="hljs-string">'127.0.0.1'</span>),
+      <span class="hljs-attr">port</span>: env.int(<span class="hljs-string">'DATABASE_PORT'</span>, <span class="hljs-number">5432</span>),
+      <span class="hljs-attr">database</span>: env(<span class="hljs-string">'DATABASE_NAME'</span>, <span class="hljs-string">'strapidb'</span>),
+      <span class="hljs-attr">user</span>: env(<span class="hljs-string">'DATABASE_USERNAME'</span>, <span class="hljs-string">'db_user'</span>),
+      <span class="hljs-attr">password</span>: env(<span class="hljs-string">'DATABASE_PASSWORD'</span>, <span class="hljs-string">'amfdod121'</span>),
+      <span class="hljs-attr">ssl</span>: env.bool(<span class="hljs-string">'DATABASE_SSL'</span>, <span class="hljs-literal">false</span>),
+    },
+  },
+});
+
+</pre>
+        </td>
+      </tr>
+    
+  </tbody>
+</table>
+
+  </div>
+</body>
+</html>

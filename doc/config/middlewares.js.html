@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>middlewares.js</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" media="all" href="../doc-style.css" />
+  <script src="../doc-filelist.js"></script>
+  <script>
+    var relativeDir = "../";
+    var thisFile = "config\\middlewares.js";
+    var defaultSidebar = true;
+  </script>
+  <script src="../doc-script.js"></script>
+
+</head>
+<body>
+  <div id="sidebar_wrapper">
+    <div id="sidebar_switch">
+      <span class="tree">Files</span>
+      <span class="headings">Headings</span>
+    </div>
+    <div id="tree"></div>
+    <div id="headings">
+
+    </div>
+  </div>
+  <div id="sidebar-toggle"></div>
+  <div id="container">
+    <div class="background highlight"></div>
+<table cellpadding="0" cellspacing="0">
+  <tbody>
+    
+      <tr>
+        <td class="docs">
+          <h1>middlewares.js</h1>
+        </td>
+        <td class="code highlight"></td>
+      </tr>
+    
+    
+      <tr>
+        <td class="docs">
+          <div class="pilwrap">
+  <a class="pilcrow" href="#section-1" id="section-1"></a>
+</div>
+
+        </td>
+        <td class="code highlight">
+          <pre class="javascript"><span class="hljs-built_in">module</span>.exports = [
+</pre>
+        </td>
+      </tr>
+    
+      <tr>
+        <td class="docs">
+          <div class="pilwrap">
+  <a class="pilcrow" href="#section-2" id="section-2"></a>
+</div>
+<p>...</p>
+
+        </td>
+        <td class="code highlight">
+          <pre class="javascript">  {
+    <span class="hljs-attr">name</span>: <span class="hljs-string">'strapi::security'</span>,
+    <span class="hljs-attr">config</span>: {
+      <span class="hljs-attr">contentSecurityPolicy</span>: {
+        <span class="hljs-attr">useDefaults</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-attr">directives</span>: {
+          <span class="hljs-string">"connect-src"</span>: [<span class="hljs-string">"'self'"</span>, <span class="hljs-string">"https:"</span>],
+          <span class="hljs-string">"img-src"</span>: [<span class="hljs-string">"'self'"</span>, <span class="hljs-string">"data:"</span>, <span class="hljs-string">"blob:"</span>, <span class="hljs-string">`<span class="hljs-subst">${<span class="hljs-string">"https://lovestack.nyc3.digitaloceanspaces.com"</span>}</span>`</span>],
+          <span class="hljs-string">"media-src"</span>: [<span class="hljs-string">"'self'"</span>, <span class="hljs-string">"data:"</span>, <span class="hljs-string">"blob:"</span>, <span class="hljs-string">`<span class="hljs-subst">${<span class="hljs-string">"https://lovestack.nyc3.digitaloceanspaces.com"</span>}</span>`</span>],
+          <span class="hljs-attr">upgradeInsecureRequests</span>: <span class="hljs-literal">null</span>,
+          <span class="hljs-attr">upgradeInsecureRequests</span>: <span class="hljs-literal">null</span>,
+        },
+      },
+    },
+  },
+</pre>
+        </td>
+      </tr>
+    
+      <tr>
+        <td class="docs">
+          <div class="pilwrap">
+  <a class="pilcrow" href="#section-3" id="section-3"></a>
+</div>
+<p>...</p>
+
+        </td>
+        <td class="code highlight">
+          <pre class="javascript">];
+
+<span class="hljs-built_in">module</span>.exports = [
+  <span class="hljs-string">'strapi::errors'</span>,
+  <span class="hljs-string">'strapi::security'</span>,
+  <span class="hljs-string">'strapi::cors'</span>,
+  <span class="hljs-string">'strapi::poweredBy'</span>,
+  <span class="hljs-string">'strapi::logger'</span>,
+  <span class="hljs-string">'strapi::query'</span>,
+  <span class="hljs-string">'strapi::body'</span>,
+  <span class="hljs-string">'strapi::session'</span>,
+  <span class="hljs-string">'strapi::favicon'</span>,
+  <span class="hljs-string">'strapi::public'</span>,
+];
+
+</pre>
+        </td>
+      </tr>
+    
+  </tbody>
+</table>
+
+  </div>
+</body>
+</html>
