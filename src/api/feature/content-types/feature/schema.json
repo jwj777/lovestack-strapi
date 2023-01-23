@@ -46,6 +46,12 @@
         "Automation",
         "Productivity"
       ]
+    },
+    "feature_category_rel": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::feature-category.feature-category",
+      "inversedBy": "features"
     }
   }
 }
