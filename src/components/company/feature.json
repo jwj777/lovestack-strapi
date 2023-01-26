@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_company_features",
+  "info": {
+    "displayName": "Feature"
+  },
+  "options": {},
+  "attributes": {
+    "featureTitle": {
+      "type": "string"
+    },
+    "featureCopy": {
+      "type": "richtext"
+    },
+    "featureImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -136,6 +136,24 @@
     },
     "Employees": {
       "type": "integer"
+    },
+    "featureItem": {
+      "displayName": "Feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "company.feature"
+    },
+    "technologies_used": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology.technology",
+      "mappedBy": "company_using"
+    },
+    "technology_used_by": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology.technology",
+      "mappedBy": "company_has"
     }
   }
 }
