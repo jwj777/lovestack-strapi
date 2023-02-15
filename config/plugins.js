@@ -10,7 +10,15 @@ module.exports = ({ env }) => ({
       },
       notificationProviders: []
     }
-  }
+  },
+  
+  'users-permissions': {
+    config: {
+      jwt: {
+        expiresIn: '7d',
+      },
+    },
+  },
 
 });
 
