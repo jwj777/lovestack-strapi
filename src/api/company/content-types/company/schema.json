@@ -154,6 +154,12 @@
       "relation": "oneToMany",
       "target": "api::technology.technology",
       "mappedBy": "company_has"
+    },
+    "primary_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product-category.product-category",
+      "inversedBy": "primary_category_companies"
     }
   }
 }

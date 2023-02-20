@@ -63,6 +63,12 @@
     },
     "shortName": {
       "type": "string"
+    },
+    "primary_category_companies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::company.company",
+      "mappedBy": "primary_category"
     }
   }
 }
