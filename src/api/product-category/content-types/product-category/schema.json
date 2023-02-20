@@ -60,6 +60,9 @@
     },
     "metaDescription": {
       "type": "text"
+    },
+    "shortName": {
+      "type": "string"
     }
   }
 }
