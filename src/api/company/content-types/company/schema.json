@@ -69,7 +69,7 @@
     "webScreenshot": {
       "type": "media",
       "multiple": true,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
