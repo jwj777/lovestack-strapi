@@ -160,6 +160,9 @@
       "relation": "manyToOne",
       "target": "api::product-category.product-category",
       "inversedBy": "primary_category_companies"
+    },
+    "trendRank": {
+      "type": "decimal"
     }
   }
 }

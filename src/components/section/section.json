@@ -1,7 +1,8 @@
 {
   "collectionName": "components_section_sections",
   "info": {
-    "displayName": "Section"
+    "displayName": "Section",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,14 +16,15 @@
       "type": "text"
     },
     "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "sectionType": {
       "type": "enumeration",
@@ -30,7 +32,8 @@
         "Two Column Image Left",
         "Two Column Image Right",
         "Highlight Center Dark",
-        "Highlight Center Light"
+        "Highlight Center Light",
+        "Text 1"
       ]
     },
     "Body": {
