@@ -37,6 +37,12 @@
         "videos",
         "audios"
       ]
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
     }
   }
 }
