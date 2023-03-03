@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_section_sections",
+  "info": {
+    "displayName": "Section"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Label": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "sectionType": {
+      "type": "enumeration",
+      "enum": [
+        "Two Column Image Left",
+        "Two Column Image Right",
+        "Highlight Center Dark",
+        "Highlight Center Light"
+      ]
+    },
+    "Body": {
+      "type": "richtext"
+    }
+  }
+}
