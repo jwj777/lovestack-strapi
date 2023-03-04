@@ -12,17 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Headline": {
-      "type": "string"
-    },
     "Subheading": {
       "type": "text"
-    },
-    "sectionComp": {
-      "displayName": "Section",
-      "type": "component",
-      "repeatable": true,
-      "component": "section.section"
     },
     "slug": {
       "type": "string"
@@ -43,6 +34,31 @@
     },
     "metaDescription": {
       "type": "text"
+    },
+    "titleLabel": {
+      "type": "string"
+    },
+    "Headline": {
+      "type": "text"
+    },
+    "sectionTwoCol": {
+      "displayName": "Section Two Column",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-two-column"
+    },
+    "sectionBigText": {
+      "displayName": "Section Big Text",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-big-text"
+    },
+    "sectionDz": {
+      "type": "dynamiczone",
+      "components": [
+        "section.section-two-column",
+        "section.section-big-text"
+      ]
     }
   }
 }

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_section_section_two_columns",
+  "info": {
+    "displayName": "Section Two Column"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "text"
+    },
+    "Label": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "text"
+    },
+    "sectionTwoColImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "styleType": {
+      "type": "enumeration",
+      "enum": [
+        "Image Right",
+        "Image Left"
+      ]
+    }
+  }
+}
