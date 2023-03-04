@@ -1,7 +1,8 @@
 {
   "collectionName": "components_section_section_two_columns",
   "info": {
-    "displayName": "Section Two Column"
+    "displayName": "Section Two Column",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,14 +16,15 @@
       "type": "text"
     },
     "sectionTwoColImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "styleType": {
       "type": "enumeration",
@@ -30,6 +32,13 @@
         "Image Right",
         "Image Left"
       ]
+    },
+    "body": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
