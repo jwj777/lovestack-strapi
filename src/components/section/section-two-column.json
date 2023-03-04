@@ -39,6 +39,13 @@
         "preset": "standard"
       },
       "customField": "plugin::ckeditor.CKEditor"
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "blue"
+      ]
     }
   }
 }
