@@ -1,7 +1,8 @@
 {
   "collectionName": "components_section_section_big_texts",
   "info": {
-    "displayName": "Section Big Text"
+    "displayName": "Section Big Text",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,8 +12,20 @@
     "Headline": {
       "type": "text"
     },
-    "backgroundStyle": {
-      "type": "string"
+    "body": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "blue",
+        "lt-gray"
+      ]
     }
   }
 }
