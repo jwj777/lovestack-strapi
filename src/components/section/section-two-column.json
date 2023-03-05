@@ -12,9 +12,6 @@
     "Label": {
       "type": "string"
     },
-    "Subheading": {
-      "type": "text"
-    },
     "sectionTwoColImage": {
       "type": "media",
       "multiple": false,

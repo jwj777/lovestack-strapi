@@ -57,7 +57,8 @@
       "type": "dynamiczone",
       "components": [
         "section.section-two-column",
-        "section.section-big-text"
+        "section.section-big-text",
+        "section.text-two-col"
       ]
     }
   }

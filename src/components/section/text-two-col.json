@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_text_two_cols",
+  "info": {
+    "displayName": "TextTwoCol"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Headline": {
+      "type": "text"
+    },
+    "body": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}
