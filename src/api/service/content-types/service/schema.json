@@ -60,6 +60,9 @@
         "section.section-big-text",
         "section.text-two-col"
       ]
+    },
+    "Weight": {
+      "type": "integer"
     }
   }
 }
