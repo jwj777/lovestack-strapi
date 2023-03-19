@@ -169,6 +169,9 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "companies"
+    },
+    "pricingTier": {
+      "type": "string"
     }
   }
 }
