@@ -58,7 +58,8 @@
       "components": [
         "section.section-two-column",
         "section.section-big-text",
-        "section.text-two-col"
+        "section.text-two-col",
+        "section.landing-page-form"
       ]
     },
     "Weight": {

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_landing_page_forms",
+  "info": {
+    "displayName": "Landing Page Form"
+  },
+  "options": {},
+  "attributes": {
+    "Subheading": {
+      "type": "text"
+    },
+    "landingPageText": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}
