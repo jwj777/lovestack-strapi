@@ -38,6 +38,13 @@
     },
     "metaDescription": {
       "type": "text"
+    },
+    "pageStyle": {
+      "type": "enumeration",
+      "enum": [
+        "Defualt",
+        "Display"
+      ]
     }
   }
 }

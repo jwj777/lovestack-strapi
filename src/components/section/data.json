@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_section_data",
+  "info": {
+    "displayName": "Data"
+  },
+  "options": {},
+  "attributes": {
+    "jsonData": {
+      "type": "json"
+    }
+  }
+}
