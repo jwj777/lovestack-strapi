@@ -45,6 +45,20 @@
         "Defualt",
         "Display"
       ]
+    },
+    "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titleLabel": {
+      "type": "string"
     }
   }
 }
