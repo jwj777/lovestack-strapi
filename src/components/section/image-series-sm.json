@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_section_image_series_sms",
+  "info": {
+    "displayName": "Image Series Sm"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "text"
+    },
+    "Body": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
