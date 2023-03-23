@@ -72,7 +72,8 @@
       "enum": [
         "Service",
         "Landing Page",
-        "Aggregator"
+        "Aggregator",
+        "Industry"
       ],
       "default": "Service"
     }
