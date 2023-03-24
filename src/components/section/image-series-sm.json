@@ -24,11 +24,7 @@
       ]
     },
     "Body": {
-      "type": "customField",
-      "options": {
-        "preset": "standard"
-      },
-      "customField": "plugin::ckeditor.CKEditor"
+      "type": "text"
     }
   }
 }
