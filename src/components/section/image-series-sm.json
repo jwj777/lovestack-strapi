@@ -12,22 +12,23 @@
     "Subheading": {
       "type": "text"
     },
+    "sectionImageSeriesSmImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
     "Body": {
       "type": "customField",
       "options": {
         "preset": "standard"
       },
       "customField": "plugin::ckeditor.CKEditor"
-    },
-    "sectionImageSeriesSmImages": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
     }
   }
 }
