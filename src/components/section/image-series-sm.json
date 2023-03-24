@@ -1,7 +1,8 @@
 {
   "collectionName": "components_section_image_series_sms",
   "info": {
-    "displayName": "Image Series Sm"
+    "displayName": "Image Series Sm",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,7 +19,7 @@
       },
       "customField": "plugin::ckeditor.CKEditor"
     },
-    "Images": {
+    "sectionImageSeriesSmImages": {
       "allowedTypes": [
         "images",
         "files",
