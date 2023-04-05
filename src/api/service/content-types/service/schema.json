@@ -41,18 +41,6 @@
     "Headline": {
       "type": "text"
     },
-    "sectionTwoCol": {
-      "displayName": "Section Two Column",
-      "type": "component",
-      "repeatable": false,
-      "component": "section.section-two-column"
-    },
-    "sectionBigText": {
-      "displayName": "Section Big Text",
-      "type": "component",
-      "repeatable": false,
-      "component": "section.section-big-text"
-    },
     "sectionDz": {
       "type": "dynamiczone",
       "components": [
@@ -61,7 +49,8 @@
         "section.text-two-col",
         "section.landing-page-form",
         "section.image-series-sm",
-        "section.data"
+        "section.data",
+        "section.text-cards"
       ]
     },
     "Weight": {

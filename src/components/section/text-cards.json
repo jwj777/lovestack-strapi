@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_text_cards",
+  "info": {
+    "displayName": "textCards"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "text"
+    },
+    "titleLabel": {
+      "type": "string"
+    },
+    "tesatserawre": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "text"
+    },
+    "textCardItem": {
+      "displayName": "textCardItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-section.text-card-item"
+    }
+  }
+}
