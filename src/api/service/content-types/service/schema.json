@@ -65,6 +65,12 @@
         "Industry"
       ],
       "default": "Service"
+    },
+    "heroCta": {
+      "type": "enumeration",
+      "enum": [
+        "Contact"
+      ]
     }
   }
 }
