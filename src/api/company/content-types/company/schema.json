@@ -172,6 +172,9 @@
     },
     "pricingTier": {
       "type": "string"
+    },
+    "twitter_wma": {
+      "type": "float"
     }
   }
 }
