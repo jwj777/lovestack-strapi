@@ -69,6 +69,9 @@
       "relation": "oneToMany",
       "target": "api::company.company",
       "mappedBy": "primary_category"
+    },
+    "category_wma": {
+      "type": "float"
     }
   }
 }
