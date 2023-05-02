@@ -59,6 +59,14 @@
     },
     "titleLabel": {
       "type": "string"
+    },
+    "sectionDz": {
+      "type": "dynamiczone",
+      "components": [
+        "section.section-two-column",
+        "section.section-big-text",
+        "section.text-cards"
+      ]
     }
   }
 }
