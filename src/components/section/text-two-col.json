@@ -1,7 +1,8 @@
 {
   "collectionName": "components_section_text_two_cols",
   "info": {
-    "displayName": "TextTwoCol"
+    "displayName": "TextTwoCol",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -17,6 +18,14 @@
         "preset": "standard"
       },
       "customField": "plugin::ckeditor.CKEditor"
+    },
+    "alignItems": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "flex-start"
+      ],
+      "default": "center"
     }
   }
 }
