@@ -22,9 +22,9 @@
     "background": {
       "type": "enumeration",
       "enum": [
-        "black",
-        "blue",
-        "lt-gray"
+        "dark",
+        "light",
+        "color"
       ]
     }
   }
