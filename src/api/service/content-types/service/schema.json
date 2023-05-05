@@ -50,7 +50,8 @@
         "section.landing-page-form",
         "section.image-series-sm",
         "section.data",
-        "section.text-cards"
+        "section.text-cards",
+        "section.divider"
       ]
     },
     "Weight": {
