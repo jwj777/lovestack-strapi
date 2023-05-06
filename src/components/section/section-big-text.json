@@ -25,7 +25,8 @@
         "dark",
         "light",
         "color"
-      ]
+      ],
+      "default": "light"
     }
   }
 }
