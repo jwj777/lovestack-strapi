@@ -25,6 +25,26 @@
       "type": "text"
     },
     "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sectionDz": {
+      "type": "dynamiczone",
+      "components": [
+        "section.section-two-column",
+        "section.section-big-text",
+        "section.text-cards",
+        "section.text-two-col"
+      ]
+    },
+    "fullBackgroundImage": {
       "allowedTypes": [
         "images",
         "files",
