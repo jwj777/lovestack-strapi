@@ -24,17 +24,6 @@
     "metaDescription": {
       "type": "text"
     },
-    "backgroundImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "sectionDz": {
       "type": "dynamiczone",
       "components": [
