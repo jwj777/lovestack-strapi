@@ -58,6 +58,9 @@
         "videos",
         "audios"
       ]
+    },
+    "titleLabel": {
+      "type": "string"
     }
   }
 }
