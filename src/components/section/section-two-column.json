@@ -42,7 +42,8 @@
       "enum": [
         "Light",
         "Dark",
-        "Light Gray"
+        "Light Gray",
+        "Color"
       ],
       "default": "Light"
     }
