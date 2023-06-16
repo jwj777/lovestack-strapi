@@ -39,14 +39,6 @@
       "type": "integer",
       "max": 50
     },
-    "feature_category": {
-      "type": "enumeration",
-      "enum": [
-        "Analytics",
-        "Automation",
-        "Productivity"
-      ]
-    },
     "feature_category_rel": {
       "type": "relation",
       "relation": "manyToOne",

@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "text"
+    },
+    "Sections": {
+      "type": "dynamiczone",
+      "components": [
+        "section.section-big-text",
+        "section.landing-page-form",
+        "section.section-two-column",
+        "section.text-cards",
+        "section.text-two-col",
+        "section.image-series-sm",
+        "section.divider",
+        "section.data"
+      ]
+    },
+    "heroBackgroundImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "titleLabel": {
+      "type": "string"
+    },
+    "heroCta": {
+      "type": "enumeration",
+      "enum": [
+        "default"
+      ]
+    },
+    "pageStyle": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "dark"
+      ]
+    }
+  }
+}

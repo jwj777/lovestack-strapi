@@ -175,6 +175,10 @@
     },
     "twitter_wma": {
       "type": "float"
+    },
+    "positioningBlurb": {
+      "type": "string",
+      "maxLength": 160
     }
   }
 }
