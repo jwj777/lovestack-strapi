@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_section_basic_text_cks",
+  "info": {
+    "displayName": "Basic Text Ck",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "textCk": {
+      "type": "customField",
+      "options": {
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

@@ -22,7 +22,6 @@ module.exports = ({ env }) => ({
 
 
   // EZ FORMS
-
   ezforms: {
     config: {
       captchaProvider: {
@@ -31,5 +30,4 @@ module.exports = ({ env }) => ({
       notificationProviders: []
     }
   },
-
 });

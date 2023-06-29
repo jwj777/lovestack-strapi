@@ -28,7 +28,8 @@
         "section.text-two-col",
         "section.image-series-sm",
         "section.divider",
-        "section.data"
+        "section.data",
+        "section.basic-text-ck"
       ]
     },
     "heroBackgroundImg": {
