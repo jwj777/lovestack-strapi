@@ -1,8 +1,17 @@
 {
   "collectionName": "components_sub_section_text_bits",
   "info": {
-    "displayName": "Text Bit"
+    "displayName": "Text Bit",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "Body": {
+      "type": "customField",
+      "options": {
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
 }
