@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_landing_page_bodies",
+  "info": {
+    "displayName": "Landing Page Body"
+  },
+  "options": {},
+  "attributes": {
+    "textBit": {
+      "displayName": "Text Bit",
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-section.text-bit"
+    }
+  }
+}
