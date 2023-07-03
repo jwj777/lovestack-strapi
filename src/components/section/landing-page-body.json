@@ -1,7 +1,8 @@
 {
   "collectionName": "components_section_landing_page_bodies",
   "info": {
-    "displayName": "Landing Page Body"
+    "displayName": "Landing Page Body",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,11 @@
       "type": "component",
       "repeatable": true,
       "component": "sub-section.text-bit"
+    },
+    "lpTextCardItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-section.text-card-item"
     }
   }
 }
