@@ -51,7 +51,8 @@
         "section.image-series-sm",
         "section.data",
         "section.text-cards",
-        "section.divider"
+        "section.divider",
+        "section.software-group"
       ]
     },
     "Weight": {
