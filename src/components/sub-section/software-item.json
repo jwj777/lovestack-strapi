@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_sub_section_software_items",
+  "info": {
+    "displayName": "Software Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "stackRank": {
+      "type": "decimal"
+    },
+    "priceTier": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three"
+      ]
+    },
+    "path": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

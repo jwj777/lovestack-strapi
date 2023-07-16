@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sub_section_headline_groups",
+  "info": {
+    "displayName": "Headline Group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "Headline": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "text"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark",
+        "color"
+      ]
+    }
+  }
+}

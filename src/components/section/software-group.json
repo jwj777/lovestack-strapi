@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_section_software_groups",
+  "info": {
+    "displayName": "Software Group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "softwareItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-section.software-item"
+    },
+    "headlineGroup": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sub-section.headline-group"
+    }
+  }
+}
