@@ -60,7 +60,7 @@
     "pageStyle": {
       "type": "enumeration",
       "enum": [
-        "default",
+        "basic",
         "dark",
         "dynamic"
       ]
