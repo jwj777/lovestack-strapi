@@ -14,14 +14,6 @@
     },
     "Subheading": {
       "type": "text"
-    },
-    "style": {
-      "type": "enumeration",
-      "enum": [
-        "light",
-        "dark",
-        "color"
-      ]
     }
   }
 }

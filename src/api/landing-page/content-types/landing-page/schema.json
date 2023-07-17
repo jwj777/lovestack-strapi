@@ -30,7 +30,8 @@
         "section.divider",
         "section.data",
         "section.basic-text-ck",
-        "section.landing-page-body"
+        "section.landing-page-body",
+        "section.software-group"
       ]
     },
     "heroBackgroundImg": {

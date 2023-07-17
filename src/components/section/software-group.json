@@ -15,6 +15,14 @@
       "type": "component",
       "repeatable": false,
       "component": "sub-section.headline-group"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "color",
+        "dark"
+      ]
     }
   }
 }
