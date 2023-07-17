@@ -31,7 +31,8 @@
         "section.data",
         "section.basic-text-ck",
         "section.landing-page-body",
-        "section.software-group"
+        "section.software-group",
+        "section.contact"
       ]
     },
     "heroBackgroundImg": {

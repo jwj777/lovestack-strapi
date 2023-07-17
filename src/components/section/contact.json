@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_section_contacts",
+  "info": {
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "text"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaUrl": {
+      "type": "string"
+    },
+    "buttonStyle": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "button1"
+      ]
+    },
+    "ctaType": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "modal"
+      ]
+    }
+  }
+}
