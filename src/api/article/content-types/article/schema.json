@@ -74,7 +74,16 @@
         "section.section-big-text",
         "section.section-two-column",
         "section.text-cards",
-        "section.text-two-col"
+        "section.text-two-col",
+        "section.contact"
+      ]
+    },
+    "headlineWidth": {
+      "type": "enumeration",
+      "enum": [
+        "medium",
+        "large",
+        "default"
       ]
     }
   }
