@@ -12,6 +12,9 @@
         "preset": "standard"
       },
       "customField": "plugin::ckeditor.CKEditor"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
