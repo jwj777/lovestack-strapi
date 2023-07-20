@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sub_section_image_cols",
+  "info": {
+    "displayName": "ImageCol"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "altText": {
+      "type": "string"
+    },
+    "sourceUrl": {
+      "type": "string"
+    },
+    "sourceLabel": {
+      "type": "string"
+    }
+  }
+}

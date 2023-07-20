@@ -46,6 +46,11 @@
         "Color"
       ],
       "default": "Light"
+    },
+    "imageCol": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sub-section.image-col"
     }
   }
 }
