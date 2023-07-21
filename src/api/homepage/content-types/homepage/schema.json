@@ -30,18 +30,22 @@
         "section.section-two-column",
         "section.section-big-text",
         "section.text-cards",
-        "section.text-two-col"
+        "section.text-two-col",
+        "section.basic-text-ck",
+        "section.contact",
+        "section.image-series-sm"
       ]
     },
     "fullBackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

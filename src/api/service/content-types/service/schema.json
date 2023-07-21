@@ -91,6 +91,14 @@
         "videos",
         "audios"
       ]
+    },
+    "headlineWidth": {
+      "type": "enumeration",
+      "enum": [
+        "medium",
+        "large",
+        "default"
+      ]
     }
   }
 }
