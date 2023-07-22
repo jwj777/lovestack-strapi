@@ -30,16 +30,18 @@ module.exports = ({ env }) => ({
     },
   },
 
-  // EZ FORMS
-
-  ezforms: {
-    config: {
-      captchaProvider: {
-        name: 'none'
-      },
-      notificationProviders: []
-    }
+  // Import Export 
+'import-export-entries': {
+  enabled: true,
+  config: {
+    /**
+     * Public hostname of the server.
+     *
+     * If you use the local provider to persist medias,
+     * `serverPublicHostname` should be set to properly export media urls.
+     */
+    serverPublicHostname: 'https://yoga.com', // default: "".
   },
-
+},
 
 });
