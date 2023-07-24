@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sub_section_links",
+  "info": {
+    "displayName": "Link"
+  },
+  "options": {},
+  "attributes": {
+    "linkType": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "color",
+        "dark"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

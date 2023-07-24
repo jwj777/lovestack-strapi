@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sub_section_flex_rows",
+  "info": {
+    "displayName": "Flex Row"
+  },
+  "options": {},
+  "attributes": {
+    "justifyContent": {
+      "type": "enumeration",
+      "enum": [
+        "flex-start",
+        "flex-end",
+        "center",
+        "space-around",
+        "space-between"
+      ]
+    }
+  }
+}

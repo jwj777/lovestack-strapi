@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sub_section_link_lists",
+  "info": {
+    "displayName": "Link List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "linkType": {
+      "type": "enumeration",
+      "enum": [
+        "LinkArrowLight",
+        "LinkArrowDark",
+        "LinkLight",
+        "LinkDark"
+      ]
+    },
+    "linkDirection": {
+      "type": "enumeration",
+      "enum": [
+        "column",
+        "row"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-section.link"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}
