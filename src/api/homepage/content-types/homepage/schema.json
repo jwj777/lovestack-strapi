@@ -34,7 +34,8 @@
         "section.basic-text-ck",
         "section.contact",
         "section.image-series-sm",
-        "section.blog-posts"
+        "section.blog-posts",
+        "section.divider"
       ]
     },
     "fullBackgroundImage": {
