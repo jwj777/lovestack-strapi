@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_blog_posts",
+  "info": {
+    "displayName": "Blog Posts"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "Headline": {
+      "type": "string"
+    },
+    "numberOfPosts": {
+      "type": "integer"
+    },
+    "postFilter": {
+      "type": "enumeration",
+      "enum": [
+        "latest",
+        "featured"
+      ]
+    }
+  }
+}

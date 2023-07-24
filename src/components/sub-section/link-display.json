@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sub_section_link_displays",
+  "info": {
+    "displayName": "LinkDisplay",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "LinkArrowLight",
+        "LinkArrowDark"
+      ]
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

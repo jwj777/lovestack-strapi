@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_section_dynamics",
+  "info": {
+    "displayName": "Section Dynamic"
+  },
+  "options": {},
+  "attributes": {
+    "headlineGroup": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sub-section.headline-group"
+    },
+    "linkDisplay": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sub-section.link-display"
+    }
+  }
+}
