@@ -33,7 +33,8 @@
         "section.text-two-col",
         "section.basic-text-ck",
         "section.contact",
-        "section.image-series-sm"
+        "section.image-series-sm",
+        "section.blog-posts"
       ]
     },
     "fullBackgroundImage": {
