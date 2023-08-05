@@ -66,6 +66,9 @@
         "dark",
         "dynamic"
       ]
+    },
+    "sidebarForm": {
+      "type": "boolean"
     }
   }
 }
