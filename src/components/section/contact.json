@@ -35,9 +35,9 @@
     "style": {
       "type": "enumeration",
       "enum": [
-        "white",
-        "color",
-        "dark"
+        "light",
+        "dark",
+        "color"
       ]
     }
   }
