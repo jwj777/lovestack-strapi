@@ -39,6 +39,9 @@
         "dark",
         "color"
       ]
+    },
+    "label": {
+      "type": "string"
     }
   }
 }

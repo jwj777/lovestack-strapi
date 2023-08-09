@@ -65,7 +65,9 @@
       "components": [
         "section.section-two-column",
         "section.section-big-text",
-        "section.text-cards"
+        "section.text-cards",
+        "section.divider",
+        "section.text-two-col"
       ]
     },
     "headlineStyle": {
@@ -76,14 +78,15 @@
       ]
     },
     "fullBackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
