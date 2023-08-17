@@ -73,6 +73,16 @@
     },
     "heroCtaText": {
       "type": "string"
+    },
+    "isolatedImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
