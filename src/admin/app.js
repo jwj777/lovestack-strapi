@@ -34,6 +34,18 @@ const bootstrap = (app) => {
 };
 
 export default {
-  config,
+  config: {
+    theme: {
+      colors: {
+        primary100: '#f5f5f5',
+        primary200: '#dddddd',
+        primary500: '#6a6a6a',
+        primary600: '#555555',
+        primary700: '#222222',
+        buttonPrimary500: '#252525',
+        buttonPrimary600: '#151515',
+      },
+    },
+  },
   bootstrap,
 };

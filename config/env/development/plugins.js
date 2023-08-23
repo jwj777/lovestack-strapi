@@ -14,7 +14,7 @@ module.exports = ({ env }) => ({
       providerOptions: {
         accessKeyId: env('AWS_ACCESS_KEY_ID'),
         secretAccessKey: env('AWS_ACCESS_SECRET'),
-        region: env('AWS_REGION'),
+        region: env('AWS_REGION', 'us-east-2'),
         params: {
           Bucket: env('AWS_BUCKET'),
         },
@@ -37,7 +37,7 @@ module.exports = ({ env }) => ({
        * If you use the local provider to persist medias,
        * `serverPublicHostname` should be set to properly export media urls.
        */
-      serverPublicHostname: 'https://yoga.com', // default: "".
+      serverPublicHostname: 'https://localhost:1337', // default: "".
     },
   },
 
