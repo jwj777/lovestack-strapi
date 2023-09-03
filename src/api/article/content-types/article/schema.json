@@ -89,6 +89,13 @@
         "large",
         "default"
       ]
+    },
+    "tableOfContents": {
+      "type": "enumeration",
+      "enum": [
+        "no",
+        "yes"
+      ]
     }
   }
 }
