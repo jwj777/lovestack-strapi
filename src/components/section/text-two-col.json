@@ -26,6 +26,13 @@
         "flex-start"
       ],
       "default": "center"
+    },
+    "headlineWidth": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "small"
+      ]
     }
   }
 }
