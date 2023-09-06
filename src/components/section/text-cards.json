@@ -27,6 +27,13 @@
         "two",
         "three"
       ]
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "numbers",
+        "article"
+      ]
     }
   }
 }
