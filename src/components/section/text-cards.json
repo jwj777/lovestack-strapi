@@ -31,9 +31,12 @@
     "style": {
       "type": "enumeration",
       "enum": [
-        "numbers",
-        "article"
-      ]
+        "numbers-two",
+        "numbers-three",
+        "article-two",
+        "article-three"
+      ],
+      "default": "numbers-three"
     }
   }
 }
