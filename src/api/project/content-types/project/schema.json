@@ -42,6 +42,25 @@
       "relation": "manyToMany",
       "target": "api::industry.industry",
       "inversedBy": "projects"
+    },
+    "hexOne": {
+      "type": "string"
+    },
+    "hexTwo": {
+      "type": "string"
+    },
+    "hexThree": {
+      "type": "string"
+    },
+    "summaryImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
