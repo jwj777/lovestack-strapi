@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_section_big_images",
+  "info": {
+    "displayName": "bigImage",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "text"
+    }
+  }
+}

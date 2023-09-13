@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleLabel": {
+      "type": "string"
+    },
+    "Headline": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "section.divider",
+        "section.image-series-sm",
+        "section.section-big-text",
+        "section.text-cards",
+        "section.text-two-col",
+        "section.section-two-column"
+      ]
+    },
+    "industries": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::industry.industry",
+      "inversedBy": "projects"
+    }
+  }
+}

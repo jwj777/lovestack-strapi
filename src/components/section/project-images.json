@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_section_project_images",
+  "info": {
+    "displayName": "ProjectImages",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "hexPrimary": {
+      "type": "string"
+    },
+    "hexTwo": {
+      "type": "string"
+    },
+    "hexThree": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
