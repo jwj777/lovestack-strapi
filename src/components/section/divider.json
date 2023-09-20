@@ -10,7 +10,17 @@
       "type": "enumeration",
       "enum": [
         "default",
+        "light",
         "heavy"
+      ]
+    },
+    "maxScreenWidth": {
+      "type": "enumeration",
+      "enum": [
+        "sm",
+        "md",
+        "lg",
+        "xl"
       ]
     }
   }
