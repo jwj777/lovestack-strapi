@@ -1,15 +1,16 @@
 {
   "collectionName": "components_section_dividers",
   "info": {
-    "displayName": "divider"
+    "displayName": "divider",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "dividerType": {
       "type": "enumeration",
       "enum": [
-        "blackBar1px",
-        "blackBar2px"
+        "default",
+        "heavy"
       ]
     }
   }
