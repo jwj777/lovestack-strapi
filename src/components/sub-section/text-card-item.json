@@ -25,6 +25,9 @@
     },
     "url": {
       "type": "string"
+    },
+    "urlText": {
+      "type": "string"
     }
   }
 }
