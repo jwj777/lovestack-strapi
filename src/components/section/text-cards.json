@@ -37,6 +37,14 @@
         "article-three"
       ],
       "default": "numbers-three"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "numbers",
+        "headings",
+        "icons"
+      ]
     }
   }
 }
