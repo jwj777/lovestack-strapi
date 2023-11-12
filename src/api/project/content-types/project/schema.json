@@ -69,6 +69,18 @@
     },
     "metaDescription": {
       "type": "text"
+    },
+    "projectCategories": {
+      "type": "enumeration",
+      "enum": [
+        "Design",
+        "Branding",
+        "Web Development",
+        "SEO"
+      ]
+    },
+    "projectUrl": {
+      "type": "string"
     }
   }
 }

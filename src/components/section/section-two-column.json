@@ -47,10 +47,10 @@
       ],
       "default": "Light"
     },
-    "imageCol": {
+    "Links": {
       "type": "component",
-      "repeatable": false,
-      "component": "sub-section.image-col"
+      "repeatable": true,
+      "component": "sub-section.link"
     }
   }
 }
