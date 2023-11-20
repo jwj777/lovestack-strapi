@@ -28,16 +28,6 @@
         "three"
       ]
     },
-    "style": {
-      "type": "enumeration",
-      "enum": [
-        "numbers-two",
-        "numbers-three",
-        "article-two",
-        "article-three"
-      ],
-      "default": "numbers-three"
-    },
     "type": {
       "type": "enumeration",
       "enum": [
