@@ -43,7 +43,22 @@
         "Light",
         "Dark",
         "Light Gray",
-        "Color"
+        "Color",
+        "neutralWhite",
+        "neutralLight",
+        "neutralDark",
+        "neutralVariantWhite",
+        "neutralVariantLight",
+        "neutralVariantDark",
+        "primaryWhite",
+        "primaryLight",
+        "primaryDark",
+        "secondaryWhite",
+        "secondaryLight",
+        "secondaryDark",
+        "TertiaryWhite",
+        "TertiaryLight",
+        "TertiaryDark"
       ],
       "default": "Light"
     },

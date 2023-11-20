@@ -1,7 +1,8 @@
 {
   "collectionName": "components_section_blog_posts",
   "info": {
-    "displayName": "Blog Posts"
+    "displayName": "Blog Posts",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,6 +20,26 @@
       "enum": [
         "latest",
         "featured"
+      ]
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "neutralWhite",
+        "neutralLight",
+        "neutralDark",
+        "neutralVariantWhite",
+        "neutralVariantLight",
+        "neutralVariantDark",
+        "primaryWhite",
+        "primaryLight",
+        "primaryDark",
+        "secondaryWhite",
+        "secondaryLight",
+        "secondaryDark",
+        "TertiaryWhite",
+        "TertiaryLight",
+        "TertiaryDark"
       ]
     }
   }

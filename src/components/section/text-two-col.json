@@ -34,17 +34,26 @@
         "small"
       ]
     },
-    "ColorScheme": {
+    "color": {
       "type": "enumeration",
       "enum": [
         "default",
         "light",
-        "neutral",
-        "neutralVariant",
-        "dark",
-        "primary",
-        "secondary",
-        "tertiary"
+        "neutralWhite",
+        "neutralLight",
+        "neutralDark",
+        "neutralVariantWhite",
+        "neutralVariantLight",
+        "neutralVariantDark",
+        "primaryWhite",
+        "primaryLight",
+        "primaryDark",
+        "secondaryWhite",
+        "secondaryLight",
+        "secondaryDark",
+        "TertiaryWhite",
+        "TertiaryLight",
+        "TertiaryDark"
       ]
     }
   }

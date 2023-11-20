@@ -45,6 +45,26 @@
         "headings",
         "icons"
       ]
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "neutralWhite",
+        "neutralLight",
+        "neutralDark",
+        "neutralVariantWhite",
+        "neutralVariantLight",
+        "neutralVariantDark",
+        "primaryWhite",
+        "primaryLight",
+        "primaryDark",
+        "secondaryWhite",
+        "secondaryLight",
+        "secondaryDark",
+        "TertiaryWhite",
+        "TertiaryLight",
+        "TertiaryDark"
+      ]
     }
   }
 }
