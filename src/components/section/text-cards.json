@@ -51,9 +51,9 @@
         "secondaryWhite",
         "secondaryLight",
         "secondaryDark",
-        "TertiaryWhite",
-        "TertiaryLight",
-        "TertiaryDark"
+        "tertiaryWhite",
+        "tertiaryLight",
+        "tertiaryDark"
       ]
     }
   }
