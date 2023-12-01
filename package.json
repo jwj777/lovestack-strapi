@@ -15,7 +15,7 @@
     "@strapi/plugin-users-permissions": "4.12.6",
     "@strapi/provider-email-nodemailer": "^4.12.6",
     "@strapi/provider-email-sendgrid": "^4.12.6",
-    "@strapi/provider-upload-aws-s3": "4.12.6",
+    "@strapi/provider-upload-aws-s3": "^4.12.6",
     "@strapi/strapi": "4.12.6",
     "pg": "8.6.0",
     "pg-connection-string": "^2.5.0",

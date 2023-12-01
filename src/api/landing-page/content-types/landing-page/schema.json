@@ -75,14 +75,35 @@
       "type": "string"
     },
     "isolatedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "neutralWhite",
+        "neutralLight",
+        "neutralDark",
+        "neutralVariantWhite",
+        "neutralVariantLight",
+        "neutralVariantDark",
+        "primaryWhite",
+        "primaryLight",
+        "primaryDark",
+        "secondaryWhite",
+        "secondaryLight",
+        "secondaryDark",
+        "tertiaryWhite",
+        "tertiaryLight",
+        "tertiaryDark"
+      ]
     }
   }
 }
