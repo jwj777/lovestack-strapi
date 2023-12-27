@@ -48,6 +48,17 @@
         "videos",
         "audios"
       ]
+    },
+    "floatHeroSection": {
+      "type": "dynamiczone",
+      "components": [
+        "section.image-series-sm",
+        "section.project-images",
+        "section.section-big-text",
+        "section.section-two-column",
+        "section.text-two-col",
+        "section.big-image"
+      ]
     }
   }
 }
