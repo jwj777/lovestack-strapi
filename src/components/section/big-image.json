@@ -24,7 +24,10 @@
     "Subheading": {
       "type": "text"
     },
-    "color": {
+    "imageOverlayText": {
+      "type": "text"
+    },
+    "imageOverlayColor": {
       "type": "enumeration",
       "enum": [
         "neutralWhite",
@@ -43,9 +46,6 @@
         "tertiaryLight",
         "tertiaryDark"
       ]
-    },
-    "overlayText": {
-      "type": "text"
     }
   }
 }
