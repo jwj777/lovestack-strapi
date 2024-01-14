@@ -23,6 +23,26 @@
     },
     "slug": {
       "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "neutralWhite",
+        "neutralLight",
+        "neutralDark",
+        "neutralVariantWhite",
+        "neutralVariantLight",
+        "neutralVariantDark",
+        "primaryWhite",
+        "primaryLight",
+        "primaryDark",
+        "secondaryWhite",
+        "secondaryLight",
+        "secondaryDark",
+        "tertiaryWhite",
+        "tertiaryLight",
+        "tertiaryDark"
+      ]
     }
   }
 }
