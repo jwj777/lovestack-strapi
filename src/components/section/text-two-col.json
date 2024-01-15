@@ -55,6 +55,13 @@
         "tertiaryLight",
         "tertiaryDark"
       ]
+    },
+    "animation": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeUp"
+      ]
     }
   }
 }

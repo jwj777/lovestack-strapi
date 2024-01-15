@@ -91,6 +91,13 @@
         "md",
         "lg"
       ]
+    },
+    "animation": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "fadeUp"
+      ]
     }
   }
 }
