@@ -96,6 +96,9 @@
         "no",
         "yes"
       ]
+    },
+    "BodyJson": {
+      "type": "blocks"
     }
   }
 }

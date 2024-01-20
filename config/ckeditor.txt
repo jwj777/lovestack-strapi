@@ -7,8 +7,8 @@ globalThis.CKEditorConfig = {
     allow you to redefine
     default objects completely: */
 
-    //configsOverwrite:true,
-    //themeOverwrite:true,
+    configsOverwrite:true,
+    themeOverwrite:true,
 
     /* Here you can redefine default configs
     or add completely new ones.
@@ -18,9 +18,9 @@ globalThis.CKEditorConfig = {
 
     configs:{
         toolbar:{
-            // styles:``,
-            // field:{},
-            // editorConfig:{}
+            styles:``,
+            field:{},
+            editorConfig:{}
         },
         custom:{
             
@@ -105,7 +105,7 @@ globalThis.CKEditorConfig = {
                     '|',
                     'bold', 'italic', 'link', 'bulletedList', 'numberedList',
                     '|',
-                    'strapiMediaLib', 'insertTable',
+                    'strapiMediaLib', 'insertTable', 'sourceEditing',
                     '|',
                     'undo', 'redo'
                   ],
