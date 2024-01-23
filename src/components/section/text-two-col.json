@@ -62,6 +62,22 @@
         "none",
         "fadeUp"
       ]
+    },
+    "sectionPaddingTop": {
+      "type": "enumeration",
+      "enum": [
+        "sm",
+        "md",
+        "lg"
+      ]
+    },
+    "sectionPaddingBottom": {
+      "type": "enumeration",
+      "enum": [
+        "sm",
+        "md",
+        "lg"
+      ]
     }
   }
 }

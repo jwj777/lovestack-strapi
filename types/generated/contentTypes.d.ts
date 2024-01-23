@@ -1447,7 +1447,6 @@ export interface ApiProjectProject extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    titleLabel: Attribute.String;
     Headline: Attribute.String;
     Subheading: Attribute.Text;
     slug: Attribute.String;

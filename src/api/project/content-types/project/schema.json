@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "titleLabel": {
-      "type": "string"
-    },
     "Headline": {
       "type": "string"
     },
@@ -103,24 +100,26 @@
       ]
     },
     "mainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "mainMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

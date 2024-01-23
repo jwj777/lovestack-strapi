@@ -460,6 +460,8 @@ export interface SectionTextTwoCol extends Schema.Component {
       ]
     >;
     animation: Attribute.Enumeration<['none', 'fadeUp']>;
+    sectionPaddingTop: Attribute.Enumeration<['sm', 'md', 'lg']>;
+    sectionPaddingBottom: Attribute.Enumeration<['sm', 'md', 'lg']>;
   };
 }
 
