@@ -498,6 +498,7 @@ export interface SectionTextTwoCol extends Schema.Component {
         'tertiaryDark'
       ]
     >;
+    fieldValue: Attribute.Component<'sub-section.field-value', true>;
   };
 }
 
@@ -522,6 +523,17 @@ export interface SoftwareStackItem extends Schema.Component {
       'api::product-category.product-category'
     >;
     stackCompanyExplanation: Attribute.Text;
+  };
+}
+
+export interface SubSectionFieldValue extends Schema.Component {
+  collectionName: 'components_sub_section_field_values';
+  info: {
+    displayName: 'Field Value';
+  };
+  attributes: {
+    Label: Attribute.String;
+    Value: Attribute.String;
   };
 }
 
@@ -695,6 +707,7 @@ declare module '@strapi/types' {
       'section.text-cards': SectionTextCards;
       'section.text-two-col': SectionTextTwoCol;
       'software.stack-item': SoftwareStackItem;
+      'sub-section.field-value': SubSectionFieldValue;
       'sub-section.flex-row': SubSectionFlexRow;
       'sub-section.headline-group': SubSectionHeadlineGroup;
       'sub-section.image-col': SubSectionImageCol;

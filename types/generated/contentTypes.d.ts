@@ -1548,7 +1548,8 @@ export interface ApiServiceService extends Schema.CollectionType {
         'section.data',
         'section.text-cards',
         'section.divider',
-        'section.software-group'
+        'section.software-group',
+        'section.project-images'
       ]
     >;
     Weight: Attribute.Integer;

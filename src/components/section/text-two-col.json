@@ -118,6 +118,11 @@
         "tertiaryLight",
         "tertiaryDark"
       ]
+    },
+    "fieldValue": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-section.field-value"
     }
   }
 }

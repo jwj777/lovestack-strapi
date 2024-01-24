@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sub_section_field_values",
+  "info": {
+    "displayName": "Field Value"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Value": {
+      "type": "string"
+    }
+  }
+}
