@@ -462,6 +462,44 @@ export interface SectionTextTwoCol extends Schema.Component {
     animation: Attribute.Enumeration<['none', 'fadeUp']>;
     sectionPaddingTop: Attribute.Enumeration<['sm', 'md', 'lg']>;
     sectionPaddingBottom: Attribute.Enumeration<['sm', 'md', 'lg']>;
+    bgTop: Attribute.Enumeration<
+      [
+        'neutralWhite',
+        'neutralLight',
+        'neutralDark',
+        'neutralVariantWhite',
+        'neutralVariantLight',
+        'neutralVariantDark',
+        'primaryWhite',
+        'primaryLight',
+        'primaryDark',
+        'secondaryWhite',
+        'secondaryLight',
+        'secondaryDark',
+        'tertiaryWhite',
+        'tertiaryLight',
+        'tertiaryDark'
+      ]
+    >;
+    bgBottom: Attribute.Enumeration<
+      [
+        'neutralWhite',
+        'neutralLight',
+        'neutralDark',
+        'neutralVariantWhite',
+        'neutralVariantLight',
+        'neutralVariantDark',
+        'primaryWhite',
+        'primaryLight',
+        'primaryDark',
+        'secondaryWhite',
+        'secondaryLight',
+        'secondaryDark',
+        'tertiaryWhite',
+        'tertiaryLight',
+        'tertiaryDark'
+      ]
+    >;
   };
 }
 

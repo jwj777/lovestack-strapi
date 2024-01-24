@@ -119,6 +119,12 @@
         "tertiaryLight",
         "tertiaryDark"
       ]
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "mappedBy": "services"
     }
   }
 }

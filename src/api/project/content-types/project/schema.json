@@ -67,15 +67,6 @@
     "metaDescription": {
       "type": "text"
     },
-    "projectCategories": {
-      "type": "enumeration",
-      "enum": [
-        "Design",
-        "Branding",
-        "Web Development",
-        "SEO"
-      ]
-    },
     "projectUrl": {
       "type": "string"
     },
@@ -120,6 +111,12 @@
         "videos",
         "audios"
       ]
+    },
+    "services": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::service.service",
+      "inversedBy": "projects"
     }
   }
 }

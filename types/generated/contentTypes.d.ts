@@ -1474,9 +1474,6 @@ export interface ApiProjectProject extends Schema.CollectionType {
     heroImageSeries: Attribute.Media;
     pageTitle: Attribute.String;
     metaDescription: Attribute.Text;
-    projectCategories: Attribute.Enumeration<
-      ['Design', 'Branding', 'Web Development', 'SEO']
-    >;
     projectUrl: Attribute.String;
     color: Attribute.Enumeration<
       [
@@ -1499,6 +1496,11 @@ export interface ApiProjectProject extends Schema.CollectionType {
     >;
     mainImage: Attribute.Media;
     mainMobile: Attribute.Media;
+    services: Attribute.Relation<
+      'api::project.project',
+      'manyToMany',
+      'api::service.service'
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1576,6 +1578,11 @@ export interface ApiServiceService extends Schema.CollectionType {
         'tertiaryLight',
         'tertiaryDark'
       ]
+    >;
+    projects: Attribute.Relation<
+      'api::service.service',
+      'manyToMany',
+      'api::project.project'
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
