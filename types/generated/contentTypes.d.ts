@@ -1501,6 +1501,8 @@ export interface ApiProjectProject extends Schema.CollectionType {
       'manyToMany',
       'api::service.service'
     >;
+    City: Attribute.String;
+    State: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

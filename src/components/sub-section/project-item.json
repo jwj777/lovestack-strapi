@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sub_section_project_items",
   "info": {
-    "displayName": "Project Item"
+    "displayName": "Project Item",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,6 +10,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::project.project"
+    },
+    "projectTitle": {
+      "type": "string"
     }
   }
 }

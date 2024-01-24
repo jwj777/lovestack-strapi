@@ -20,6 +20,26 @@
       "type": "component",
       "repeatable": true,
       "component": "sub-section.project-item"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "neutralWhite",
+        "neutralLight",
+        "neutralDark",
+        "neutralVariantWhite",
+        "neutralVariantLight",
+        "neutralVariantDark",
+        "primaryWhite",
+        "primaryLight",
+        "primaryDark",
+        "secondaryWhite",
+        "secondaryLight",
+        "secondaryDark",
+        "tertiaryWhite",
+        "tertiaryLight",
+        "tertiaryDark"
+      ]
     }
   }
 }

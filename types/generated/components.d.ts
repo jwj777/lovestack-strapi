@@ -238,6 +238,25 @@ export interface SectionProjectImages extends Schema.Component {
     Subheading: Attribute.Text;
     Label: Attribute.String;
     projectItems: Attribute.Component<'sub-section.project-item', true>;
+    color: Attribute.Enumeration<
+      [
+        'neutralWhite',
+        'neutralLight',
+        'neutralDark',
+        'neutralVariantWhite',
+        'neutralVariantLight',
+        'neutralVariantDark',
+        'primaryWhite',
+        'primaryLight',
+        'primaryDark',
+        'secondaryWhite',
+        'secondaryLight',
+        'secondaryDark',
+        'tertiaryWhite',
+        'tertiaryLight',
+        'tertiaryDark'
+      ]
+    >;
   };
 }
 
@@ -622,6 +641,7 @@ export interface SubSectionProjectItem extends Schema.Component {
   collectionName: 'components_sub_section_project_items';
   info: {
     displayName: 'Project Item';
+    description: '';
   };
   attributes: {
     project: Attribute.Relation<
@@ -629,6 +649,7 @@ export interface SubSectionProjectItem extends Schema.Component {
       'oneToOne',
       'api::project.project'
     >;
+    projectTitle: Attribute.String;
   };
 }
 

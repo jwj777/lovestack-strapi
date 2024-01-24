@@ -117,6 +117,12 @@
       "relation": "manyToMany",
       "target": "api::service.service",
       "inversedBy": "projects"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
     }
   }
 }
