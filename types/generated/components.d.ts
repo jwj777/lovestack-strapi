@@ -435,6 +435,8 @@ export interface SectionTextCards extends Schema.Component {
         'tertiaryDark'
       ]
     >;
+    sectionPaddingTop: Attribute.Enumeration<['sm', 'md', 'lg']>;
+    sectionPaddingBottom: Attribute.Enumeration<['sm', 'md', 'lg']>;
   };
 }
 
