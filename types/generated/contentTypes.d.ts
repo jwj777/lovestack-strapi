@@ -1194,7 +1194,8 @@ export interface ApiLandingPageLandingPage extends Schema.CollectionType {
         'section.basic-text-ck',
         'section.landing-page-body',
         'section.software-group',
-        'section.contact'
+        'section.contact',
+        'section.project-images'
       ]
     >;
     heroBackgroundImg: Attribute.Media;
