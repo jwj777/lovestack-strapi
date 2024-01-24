@@ -229,17 +229,15 @@ export interface SectionLandingPageForm extends Schema.Component {
 export interface SectionProjectImages extends Schema.Component {
   collectionName: 'components_section_project_images';
   info: {
-    displayName: 'ProjectImages';
+    displayName: 'Projects';
     icon: 'layout';
+    description: '';
   };
   attributes: {
     Heading: Attribute.String;
     Subheading: Attribute.Text;
-    title: Attribute.String;
-    hexPrimary: Attribute.String;
-    hexTwo: Attribute.String;
-    hexThree: Attribute.String;
-    images: Attribute.Media;
+    Label: Attribute.String;
+    projectItems: Attribute.Component<'sub-section.project-item', true>;
   };
 }
 
@@ -608,6 +606,20 @@ export interface SubSectionLink extends Schema.Component {
   };
 }
 
+export interface SubSectionProjectItem extends Schema.Component {
+  collectionName: 'components_sub_section_project_items';
+  info: {
+    displayName: 'Project Item';
+  };
+  attributes: {
+    project: Attribute.Relation<
+      'sub-section.project-item',
+      'oneToOne',
+      'api::project.project'
+    >;
+  };
+}
+
 export interface SubSectionSoftwareItem extends Schema.Component {
   collectionName: 'components_sub_section_software_items';
   info: {
@@ -689,6 +701,7 @@ declare module '@strapi/types' {
       'sub-section.link-display': SubSectionLinkDisplay;
       'sub-section.link-list': SubSectionLinkList;
       'sub-section.link': SubSectionLink;
+      'sub-section.project-item': SubSectionProjectItem;
       'sub-section.software-item': SubSectionSoftwareItem;
       'sub-section.text-bit': SubSectionTextBit;
       'sub-section.text-card-item': SubSectionTextCardItem;

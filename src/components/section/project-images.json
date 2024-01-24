@@ -1,8 +1,9 @@
 {
   "collectionName": "components_section_project_images",
   "info": {
-    "displayName": "ProjectImages",
-    "icon": "layout"
+    "displayName": "Projects",
+    "icon": "layout",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,24 +13,13 @@
     "Subheading": {
       "type": "text"
     },
-    "title": {
+    "Label": {
       "type": "string"
     },
-    "hexPrimary": {
-      "type": "string"
-    },
-    "hexTwo": {
-      "type": "string"
-    },
-    "hexThree": {
-      "type": "string"
-    },
-    "images": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true
+    "projectItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-section.project-item"
     }
   }
 }
