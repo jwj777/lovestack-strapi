@@ -12,16 +12,14 @@ module.exports = [
             'data:',
             'blob:',
             'market-assets.strapi.io',
-            'https://lovestack.nyc3.digitaloceanspaces.com',
-            'strapi-aws-s3-images-bucket-2.s3.us-east-2.amazonaws.com'
+            'demandstack.s3.us-east-2.amazonaws.com',
           ],
           'media-src': [
             "'self'",
             'data:',
             'blob:',
             'market-assets.strapi.io',
-            'https://lovestack.nyc3.digitaloceanspaces.com',
-            'strapi-aws-s3-images-bucket-2.s3.us-east-2.amazonaws.com'
+            'demandstack.s3.us-east-2.amazonaws.com',
           ],
           upgradeInsecureRequests: null,
         },

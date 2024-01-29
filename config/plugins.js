@@ -2,19 +2,19 @@
 module.exports = ({ env }) => ({
 
  // AWS Image Storage on DO
-  upload: {
-    config: {
-      provider: 'aws-s3',
-      providerOptions: {
-        accessKeyId: env('DO_ACCESS_KEY_ID'),
-        secretAccessKey: env('DO_ACCESS_SECRET'),
-        endpoint: env('DO_ENDPOINT'),
-        params: {
-          Bucket: env('DO_BUCKET'),
-        },
-      },
-    },
-  },
+  // upload: {
+  //   config: {
+  //     provider: 'aws-s3',
+  //     providerOptions: {
+  //       accessKeyId: env('DO_ACCESS_KEY_ID'),
+  //       secretAccessKey: env('DO_ACCESS_SECRET'),
+  //       endpoint: env('DO_ENDPOINT'),
+  //       params: {
+  //         Bucket: env('DO_BUCKET'),
+  //       },
+  //     },
+  //   },
+  // },
 
 // Email
 email: {
@@ -30,19 +30,19 @@ email: {
   },
 },
 
-// Import Export 
-'import-export-entries': {
-  enabled: true,
-  config: {
-    /**
-     * Public hostname of the server.
-     *
-     * If you use the local provider to persist medias,
-     * `serverPublicHostname` should be set to properly export media urls.
-     */
-    serverPublicHostname: 'https://yoga.com', // default: "".
-  },
-},
+// // Import Export 
+// 'import-export-entries': {
+//   enabled: true,
+//   config: {
+//     /**
+//      * Public hostname of the server.
+//      *
+//      * If you use the local provider to persist medias,
+//      * `serverPublicHostname` should be set to properly export media urls.
+//      */
+//     serverPublicHostname: 'https://yoga.com', // default: "".
+//   },
+// },
 
 });
 
