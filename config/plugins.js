@@ -10,13 +10,14 @@ module.exports = ({ env }) => ({
   //       secretAccessKey: env('DO_ACCESS_SECRET'),
   //       endpoint: env('DO_ENDPOINT'),
   //       params: {
-  //         Bucket: env('DO_BUCKET'),
+  //         Bucket: env('DO_BUCKET'), 
   //       },
   //     },
   //   },
   // },
 
 // Email
+
 email: {
   config: {
     provider: 'sendgrid',
