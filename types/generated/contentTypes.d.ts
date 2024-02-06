@@ -1090,6 +1090,25 @@ export interface ApiHomepageHomepage extends Schema.CollectionType {
         'tertiaryDark'
       ]
     >;
+    footerColor: Attribute.Enumeration<
+      [
+        'neutralWhite',
+        'neutralLight',
+        'neutralDark',
+        'neutralVariantWhite',
+        'neutralVariantLight',
+        'neutralVariantDark',
+        'primaryWhite',
+        'primaryLight',
+        'primaryDark',
+        'secondaryWhite',
+        'secondaryLight',
+        'secondaryDark',
+        'tertiaryWhite',
+        'tertiaryLight',
+        'tertiaryDark'
+      ]
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1587,6 +1606,25 @@ export interface ApiServiceService extends Schema.CollectionType {
       'api::service.service',
       'manyToMany',
       'api::project.project'
+    >;
+    footerColor: Attribute.Enumeration<
+      [
+        'neutralWhite',
+        'neutralLight',
+        'neutralDark',
+        'neutralVariantWhite',
+        'neutralVariantLight',
+        'neutralVariantDark',
+        'primaryWhite',
+        'primaryLight',
+        'primaryDark',
+        'secondaryWhite',
+        'secondaryLight',
+        'secondaryDark',
+        'tertiaryWhite',
+        'tertiaryLight',
+        'tertiaryDark'
+      ]
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;

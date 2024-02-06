@@ -126,6 +126,26 @@
       "relation": "manyToMany",
       "target": "api::project.project",
       "mappedBy": "services"
+    },
+    "footerColor": {
+      "type": "enumeration",
+      "enum": [
+        "neutralWhite",
+        "neutralLight",
+        "neutralDark",
+        "neutralVariantWhite",
+        "neutralVariantLight",
+        "neutralVariantDark",
+        "primaryWhite",
+        "primaryLight",
+        "primaryDark",
+        "secondaryWhite",
+        "secondaryLight",
+        "secondaryDark",
+        "tertiaryWhite",
+        "tertiaryLight",
+        "tertiaryDark"
+      ]
     }
   }
 }
