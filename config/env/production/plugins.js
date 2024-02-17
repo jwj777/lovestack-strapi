@@ -11,7 +11,7 @@ module.exports = ({ env }) => ({
           region: env("AWS_S3_REGION", "us-east-1"),
           params: {
             Bucket: env("AWS_S3_BUCKET"),
-            ACL: env("AWS_S3_ACL", "public"),
+            // ACL: env("AWS_S3_ACL", "public"),
           },
           baseUrl: env("AWS_S3_URL"), 
         },
